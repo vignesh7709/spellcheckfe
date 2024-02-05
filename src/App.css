@@ -12,7 +12,128 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.header{
+  background-color: rgb(54, 54, 54);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  color:white;
+  height: 10vh;
+  font-size: xx-large;
+}
+.topSection{
+  height: 10vh;
+  background-color: rgb(86, 86, 86);
+  display: grid;
+  color: white;
+  align-content: center;
+  justify-content: center;
 
+}
+.leftSection{
+  height: 80vh;
+  width: 30vw;
+  background-color:#ccc;
+  color:rgb(71, 71, 71);
+  border-right: 1px solid #777;
+}
+.gameBodySection{
+  display: inline-flex;
+}
+.gameSection{
+  width: 50vw;
+}
+.adSection{
+  width: 20vw;
+  background-color: black;
+}
+.gameSection .broadcastSection{
+  height:10%;
+  background-color: #ccc;
+}
+.gameSection .audioSection{
+  height:40%;
+}
+.gameSection .messageSection{
+  height:20%;
+  overflow: scroll;
+  background-color: #e6e6e6;
+}
+.gameSection .messageSection ul{
+  list-style-type: none;
+}
+.gameSection .messageSection li{
+  display: grid;
+  justify-content: left;
+}
+.gameSection .inputSection{
+  height:30%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: #ccc;
+}
+.lobby .title{
+  height: 10vh;
+  background-color: #777;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  display: grid;
+}
+.lobby{
+  display: block;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+}
+.lobby .playersList{
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.lobby ul{
+  list-style-type: none;
+  list-style: none;
+  width: 40vw;
+  padding:0px;
+  background-color: #ccc;
+  border-radius: 5px;
+  min-height: 60vh;
+  /* align-content: center; */
+  justify-content: center;
+  display: list-item;
+}
+.lobby ul li{
+  display: list-item;
+  align-content: center;
+}
+.innerBlock{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  width:55vw;
+  height: 65vh;
+  border: 0.15vw solid #777;
+  border-radius: 10px;
+  background-color: #fafafa;
+  
+}
+.joinButton,.createButton{
+  display: grid;
+  width: 20vw;
+  height: 10vh;
+  background-color: white;
+  color:#777;
+  margin: 10vh;
+  border: 0.15vw solid #777;
+  border-radius: 10px;
+  align-content: center;
+  justify-content: center;
+  font-size: medium;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +144,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
