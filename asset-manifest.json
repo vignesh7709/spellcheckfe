@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/spellcheckfe.github.io/static/css/main.7728b798.css",
-    "main.js": "/spellcheckfe.github.io/static/js/main.cb4f29b2.js",
+    "main.js": "/spellcheckfe.github.io/static/js/main.20c0e61c.js",
     "static/js/787.dd4d7499.chunk.js": "/spellcheckfe.github.io/static/js/787.dd4d7499.chunk.js",
     "static/media/logo.svg": "/spellcheckfe.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/spellcheckfe.github.io/index.html",
     "main.7728b798.css.map": "/spellcheckfe.github.io/static/css/main.7728b798.css.map",
-    "main.cb4f29b2.js.map": "/spellcheckfe.github.io/static/js/main.cb4f29b2.js.map",
+    "main.20c0e61c.js.map": "/spellcheckfe.github.io/static/js/main.20c0e61c.js.map",
     "787.dd4d7499.chunk.js.map": "/spellcheckfe.github.io/static/js/787.dd4d7499.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7728b798.css",
-    "static/js/main.cb4f29b2.js"
+    "static/js/main.20c0e61c.js"
   ]
 }
